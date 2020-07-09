@@ -1,7 +1,7 @@
 import React from 'react';
 
-const UserCard = (props) => {
-    const { state } = props;
+const UserCard = ({ state }) => {
+
     return (
         <div>
             <p>First Name: {state.firstName}</p>
